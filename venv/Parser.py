@@ -16,8 +16,6 @@ class Parser:
 
 
     def getURL(): 
-        queryData()
-        buildURL()
         return url
 
 
@@ -31,14 +29,13 @@ class Parser:
         data['licensed'] = is_licensed 
         data['tformat'] = tformat
         data['cid'] = cid
+        buildURL['archive']()
 
-    def buildURL(): 
-        switch = 
-        {
+   
+        buildURL = {
             'law': buildLaw
             'arciv': buildArciv
             'crossref': buildRef
-
         }
 
 

@@ -3,9 +3,10 @@ import bs4
 import sys
 import urllib
 import json
+import os
+import shutil
 
 
-archive = " "
 
 
 def is_downloadable(url):
@@ -39,7 +40,23 @@ def use_arxiv(search_type,max_results):
     url = 'http://export.arxiv.org/api/query?search_query=all:'+search_type+'&start=0&max_results='+max_results
     data = urllib.request.urlopen(url).read()
     soup = bs4.BeautifulSoup(data,'html.parser')
-    print(soup.prettify())
+    sentence = soup.find_all('summary')
+    path = os.getcwd() + "/Science" + "/" + search_type
+    os.makedirs(path)
+    i = 0
+    for summary in sentence:
+
+        dataFile = str(summary)
+        dataFile = dataFile.replace("[","")
+        data = dataFile.replace("]","")
+        fname = search_type + str(i) + ".xml"
+        f = open(fname,"w+")
+        f.write(data)
+        shutil.move(fname,"Science/" + search_type + "/" + fname)
+        i += 1
+    f.close()
+    
+    
 
 def use_caselaw():
     archive = "law"
@@ -47,7 +64,22 @@ def use_caselaw():
     data = urllib.request.urlopen(url).read()
     soup = bs4.BeautifulSoup(data,'html.parser')
     sentence = soup.find_all('p',{'class':'summary'})
-    print(sentence)
+    path = os.getcwd() + "/Science"
+    os.mkdir(path)
+    i = 0
+    for summary in sentence:
+
+        dataFile = str(summary)
+        dataFile = dataFile.replace("[","")
+        data = dataFile.replace("]","")
+        fname = search_type + str(i) + ".xml"
+        f = open(fname,"w+")
+        f.write(data)
+        shutil.move(fname,"Science/" + fname)
+        i += 1
+    f.close()
+   
+    
     
 def use_cross_ref(hasLicense,hasFull,query,numRows):
     archive = "cross_ref"
@@ -74,7 +106,7 @@ def download(urls):
 
 
 #use_cross_ref("true","true","blood","10")
-use_arxiv("molecules","1")
+use_arxiv("molecules","100")
 
 
 
