@@ -1,0 +1,16 @@
+<summary>  The effect of tube diameter $D$ and capillary number $Ca$ on platelet
+margination in blood flow at $\approx 37\%$ tube haematocrit is investigated.
+The system is modelled as three-dimensional suspension of deformable red blood
+cells and nearly rigid platelets using a combination of the lattice-Boltzmann,
+immersed boundary and finite element methods. Results show that margination is
+facilitated by a non-diffusive radial platelet transport. This effect is
+important near the edge of the cell-free layer, but it is only observed for $Ca
+&gt; 0.2$, when red blood cells are tank-treading rather than tumbling. It is also
+shown that platelet trapping in the cell-free layer is reversible for $Ca \leq
+0.2$. Only for the smallest investigated tube ($D = 10 \mu\text{m}$)
+margination is essentially independent of $Ca$. Once platelets have reached the
+cell-free layer, they tend to slide rather than tumble. The tumbling rate is
+essentially independent of $Ca$ but increases with $D$. Tumbling is suppressed
+by the strong confinement due to the relatively small cell-free layer thickness
+at $\approx 37\%$ tube haematocrit.
+</summary>

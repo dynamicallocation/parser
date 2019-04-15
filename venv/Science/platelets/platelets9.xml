@@ -1,0 +1,21 @@
+<summary>  This paper worked towards modeling blood platelets. Blood platelets, also
+known as thrombocytes, play a key role in blood clotting which is a vital human
+function. Furthermore, the role of these entities in strokes, myocardial
+infarctions, and coronary artery disease add to the importance of blood
+platelets.
+  Analytical expressions for the structure of blood platelets in both their
+inactivated and activated states were developed, beginning with randomized
+two-dimensional models in polar coordinates. Weak frameworks in spherical and
+cylindrical systems were then created. Next, using rotational matrices to
+change the position and direction of a simple projection, useful, explicit,
+parametric system of equations were attained in three-dimensional Cartesian
+space which roughly approximate the structure of a blood platelet.
+  Finally, a methodology to return the drag coefficient ($c_d$) for any
+inputted set of blood platelet images was designed. This method was
+incorporated into a C++ program returning the functional representation and
+drag coefficient of any given platelet. This work has primary applications in
+computational biophysics and fluid dynamics. Additionally, if the parameters of
+the model are extended, there could be ramifications in other areas of
+scientific modelling by connecting analytical expressions with instrinsic
+characteristics.
+</summary>

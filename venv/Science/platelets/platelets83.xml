@@ -1,0 +1,17 @@
+<summary>  Periodic hematological diseases such as cyclical neutropenia or cyclical
+thrombocytopenia, with their characteristic oscillations of circulating
+neutrophils or platelets, may pose grave problems for patients. Likewise,
+periodically administered chemotherapy has the unintended side effect of
+establishing periodic fluctuations in circulating white cells, red cell
+precursors and/or platelets. These fluctuations, either spontaneous or induced,
+often have serious consequences for the patient (e.g. neutropenia, anemia, or
+thrombocytopenia respectively) which exogenously administered cytokines can
+partially correct. The question of when and how to administer these drugs is a
+difficult one for clinicians and not easily answered. In this paper we use a
+simple model consisting of a delay differential equation with a piecewise
+linear nonlinearity, that has a periodic solution, to model the effect of a
+periodic disease or periodic chemotherapy. We then examine the response of this
+toy model to both single and periodic perturbations, meant to mimic the drug
+administration, as a function of the drug dose and the duration and frequency
+of its administration to best determine how to avoid side effects.
+</summary>

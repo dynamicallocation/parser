@@ -1,0 +1,15 @@
+<summary>  We apply RISM (Reference Interaction Site Model) and PRISM (polymer-RISM)
+theories to calculate the site-site pair structure and the osmotic equation of
+state of suspensions of circular or hexagonal platelets (lamellar colloids)
+over a range of ratios of the particle diameter over thickness. Despite the
+neglect of edge effects, the simpler PRISM theory yields results in good
+agreement with the more elaborate RISM calculations, provided the correct form
+factor, characterizing the intramolecular structure of the platelets, is used.
+The RISM equation of state is sensitive to the number of sites used to model
+the platelets, but saturates when the hard spheres, associated with the
+interaction sites, nearly touch; the limiting equation of state agrees
+reasonably well with available simulation data for all densities up to the
+isotropic-nematic transition. When properly scaled with the second virial
+coefficient, the equations of state of platelets with different aspect ratios
+nearly collapse on a single master curve.
+</summary>

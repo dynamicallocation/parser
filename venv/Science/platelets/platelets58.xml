@@ -1,0 +1,20 @@
+<summary>  Annotations of gene structures and regulatory elements can inform genome-wide
+association studies (GWAS). However, choosing the relevant annotations for
+interpreting an association study of a given trait remains challenging. We
+describe a statistical model that uses association statistics computed across
+the genome to identify classes of genomic element that are enriched or depleted
+for loci that influence a trait. The model naturally incorporates multiple
+types of annotations. We applied the model to GWAS of 18 human traits,
+including red blood cell traits, platelet traits, glucose levels, lipid levels,
+height, BMI, and Crohn's disease. For each trait, we evaluated the relevance of
+450 different genomic annotations, including protein-coding genes, enhancers,
+and DNase-I hypersensitive sites in over a hundred tissues and cell lines. We
+show that the fraction of phenotype-associated SNPs that influence protein
+sequence ranges from around 2% (for platelet volume) up to around 20% (for LDL
+cholesterol); that repressed chromatin is significantly depleted for SNPs
+associated with several traits; and that cell type-specific DNase-I
+hypersensitive sites are enriched for SNPs associated with several traits (for
+example, the spleen in platelet volume). Finally, by re-weighting each GWAS
+using information from functional genomics, we increase the number of loci with
+high-confidence associations by around 5%.
+</summary>

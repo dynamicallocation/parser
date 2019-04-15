@@ -1,0 +1,8 @@
+<summary>  Interfacing atomistic-based with continuum-based simulation codes is now
+required in many multiscale physical and biological systems. We present the
+first results from coupled atomistic-continuum simulations on 190,000
+processors. Platelet aggregation in the patient-specific model of an aneurysm
+has been modeled using a high-order spectral/hp element Navier-Stokes solver
+with a stochastic (coarse-grained) Molecular Dynamics solver based on
+Dissipative Particle Dynamics (DPD).
+</summary>

@@ -1,0 +1,9 @@
+<summary>  We present a general formalism for incorporating dislocations in Phase Field
+methods. This formalism is based on the elastic equivalence between a
+dislocation loop and a platelet inclusion of specific stress-free strain
+related to the loop Burgers vector and normal. Dislocations are thus treated as
+platelet inclusions and may be coupled dynamically to any other field such as a
+concentration field. The method is illustrated through the simulation of a
+Frank-Read source and of the shrinkage of a loop in presence of a concentration
+field.
+</summary>

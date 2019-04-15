@@ -1,0 +1,20 @@
+<summary>  A geometry-based density functional theory is presented for mixtures of hard
+spheres, hard needles and hard platelets; both the needles and the platelets
+are taken to be of vanishing thickness. Geometrical weight functions that are
+characteristic for each species are given and it is shown how convolutions of
+pairs of weight functions recover each Mayer bond of the ternary mixture and
+hence ensure the correct second virial expansion of the excess free energy
+functional. The case of sphere-platelet overlap relies on the same
+approximation as does Rosenfeld's functional for strictly two-dimensional hard
+disks. We explicitly control contributions to the excess free energy that are
+of third order in density. Analytic expressions relevant for the application of
+the theory to states with planar translational and cylindrical rotational
+symmetry, e.g. to describe behavior at planar smooth walls, are given. For
+binary sphere-platelet mixtures, in the appropriate limit of small platelet
+densities, the theory differs from that used in a recent treatment L. Harnau
+and S. Dietrich, Phys. Rev. E 71, 011504 (2004). As a test case of our
+approach we consider the isotropic-nematic bulk transition of pure hard
+platelets, which we find to be weakly first order, with values for the
+coexistence densities and the nematic order parameter that compare well with
+simulation results.
+</summary>

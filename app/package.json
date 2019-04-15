@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "middleware to pipe python code into pouchdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dynamicallocation/parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dynamicallocation/parser/issues"
+  },
+  "homepage": "https://github.com/dynamicallocation/parser#readme",
+  "dependencies": {
+    "pouchdb": "^7.0.0",
+    "xml2json": "^0.11.2"
+  }
+}

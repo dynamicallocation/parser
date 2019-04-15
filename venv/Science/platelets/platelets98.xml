@@ -1,0 +1,10 @@
+<summary>  We put forward a simple procedure for extracting dynamical information from
+Monte Carlo simulations, by appropriate matching of the short-time diffusion
+tensor with its infinite-dilution limit counterpart, which is supposed to be
+known. This approach --discarding hydrodynamics interactions-- first allows us
+to improve the efficiency of previous Dynamic Monte Carlo algorithms for
+spherical Brownian particles. In a second step, we address the case of
+anisotropic colloids with orientational degrees of freedom. As an illustration,
+we present a detailed study of the dynamics of thin platelets, with emphasis on
+long-time diffusion and orientational correlations.
+</summary>

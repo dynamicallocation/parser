@@ -1,0 +1,19 @@
+<summary>  We present a computational method for solving the coupled problem of chemical
+transport in a fluid (blood) with binding/unbinding of the chemical to/from
+cellular (platelet) surfaces in contact with the fluid, and with transport of
+the chemical on the cellular surfaces. The overall framework is the Augmented
+Forcing Point Method (AFM) (\emph{L. Yao and A.L. Fogelson, Simulations of
+chemical transport and reaction in a suspension of cells I: An augmented
+forcing point method for the stationary case, IJNMF (2012) 69, 1736-52.}) for
+solving fluid-phase transport in a region outside of a collection of cells
+suspended in the fluid. We introduce a novel Radial Basis Function-Finite
+Difference (RBF-FD) method to solve reaction-diffusion equations on the surface
+of each of a collection of 2D stationary platelets suspended in blood.
+Parametric RBFs are used to represent the geometry of the platelets and give
+accurate geometric information needed for the RBF-FD method. Symmetric
+Hermite-RBF interpolants are used for enforcing the boundary conditions on the
+fluid-phase chemical concentration, and their use removes a significant
+limitation of the original AFM. The efficacy of the new methods are shown
+through a series of numerical experiments; in particular, second order
+convergence for the coupled problem is demonstrated.
+</summary>

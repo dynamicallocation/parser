@@ -1,0 +1,16 @@
+<summary>  We investigate the margination of microparticles/platelets in blood flow
+through complex geometries typical for in vivo vessel networks: a vessel
+confluence and a bifurcation. Using 3D Lattice-Boltzmann simulations, we
+confirm that behind the confluence of two vessels a cell-free layer devoid of
+red blood cells develops in the channel center. Despite its small size of
+roughly one micrometer, this central cell-free layer persists for up to 100
+$\mu$m after the confluence. Most importantly, we show from simulations that
+this layer also contains a significant amount of microparticles/platelets and
+validate this result by in vivo microscopy in mouce venules. At bifurcations,
+however, a similar effect does not appear and margination is largely unaffected
+by the geometry. This anti-margination towards the vessel center after a
+confluence may explain in vivo observations by Woldhuis et al. Am. J. Physiol.
+262, H1217 (1992) where platelet concentrations near the vessel wall are seen
+to be much higher on the arteriolar side (containing bifurcations) than on the
+venular side (containing confluences) of the vascular system.
+</summary>

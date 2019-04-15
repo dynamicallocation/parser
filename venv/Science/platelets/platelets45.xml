@@ -1,0 +1,18 @@
+<summary>  The Immersed Boundary (IB) method is a widely-used numerical methodology for
+the simulation of fluid-structure interaction problems. The IB method utilizes
+an Eulerian discretization for the fluid equations of motion while maintaining
+a Lagrangian representation of structural objects. Operators are defined for
+transmitting information (forces and velocities) between these two
+representations. Most IB simulations represent their structures with
+piecewise-linear approximations and utilize Hookean spring models to
+approximate structural forces. Our specific motivation is the modeling of
+platelets in hemodynamic flows. In this paper, we study two alternative
+representations - radial basis functions (RBFs) and Fourier-based
+(trigonometric polynomials and spherical harmonics) representations - for the
+modeling of platelets in two and three dimensions within the IB framework, and
+compare our results with the traditional piecewise-linear approximation
+methodology. For different representative shapes, we examine the geometric
+modeling errors (position and normal vectors), force computation errors, and
+computational cost and provide an engineering trade-off strategy for when and
+why one might select to employ these different representations.
+</summary>

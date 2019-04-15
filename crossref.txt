@@ -1,0 +1,35 @@
+3% of URL's deprecate 
+DOI's or Digital Object Indentifier is used to circumvent that problem 
+-persistent 
+-unique 
+-Crossref started in 2000 
+-Each article has a DOI 
+-Crossref contains relevant metadata such as 
+	-titles 
+	-table of contents 
+	-authors 
+	-ISSN 
+	-Datasets 
+	-license information 
+	-full-text links 
+
+Methodology behind assembling a corpus 
+	-Identifying said corpus 
+	-Getting a hold of corpus 
+		i.License of each document 
+	 	ii.Location of document 
+		iii.Downloading document 
+	Clever algorithms(our parser) 
+
+Essentially: DOI's + license information + full-text URL's = corpus 
+
+base URL: api.crossref.org 
+
+filters
+*has-full-text:true 
+*has-license:true
+query
+(randomization) 
+row(100) 
+ 
+

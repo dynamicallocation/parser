@@ -1,0 +1,12 @@
+<summary>  We present a new computational method by extending the Immersed Boundary (IB)
+method with a spectrally-accurate geometric model based on Radial Basis
+Function (RBF) interpolation of the Lagrangian structures. Our specific
+motivation is the modeling of platelets in hemodynamic flows, though we
+anticipate that our method will be useful in other applications as well. The
+efficacy of our new RBF-IB method is shown through a series of numerical
+experiments. Specifically, we compare our method with the traditional IB method
+in terms of convergence and accuracy, computational cost, maximum stable
+time-step size and volume loss. We conclude that the RBF-IB method has
+advantages over the traditional Immersed Boundary method, and is well-suited
+for modeling of platelets in hemodynamic flows.
+</summary>

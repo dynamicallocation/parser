@@ -5,6 +5,8 @@ import urllib
 import json
 import os
 import shutil
+import xml.etree.ElementTree as ET
+from DBHelper import *
 
 
 
@@ -41,8 +43,11 @@ def use_arxiv(search_type,max_results):
     data = urllib.request.urlopen(url).read()
     soup = bs4.BeautifulSoup(data,'html.parser')
     sentence = soup.find_all('summary')
+
+    
     path = os.getcwd() + "/Science" + "/" + search_type
     os.makedirs(path)
+    
     i = 0
     for summary in sentence:
 
@@ -102,11 +107,17 @@ def download(urls):
             
 
 
+def addtoDB():
+    helper = DBHelper()
+    tree = ET.parse("Science/platelets/platelets1.xml")
+    root = tree.getroot()
+    helper.push(root.text) 
+
+    
 
 
 
-#use_cross_ref("true","true","blood","10")
-use_arxiv("molecules","100")
+addtoDB()
 
 
 

@@ -1,0 +1,17 @@
+<summary>  We present a new simulation method to calculate the free energy and the
+chemical potential of hard particle systems. The method relies on the
+introduction of a parameter dependent potential to smoothly transform between
+the hard particle system and the corresponding ideal gas. We applied the method
+to study the phase transition behavior of monodispersed infinitely thin square
+platelets. First, we equilibrated the square platelet system for different
+reduced pressures with a usual isobaric Monte Carlo (MC) simulation and
+obtained a reduced pressure-chemical potential plot. Then we introduce the
+parametrized potential to interpolate the system between the ideal gas and the
+hard particles. After selecting the potential, we performed isochoric MC runs,
+ranging from the ideal gas to the hard particle limit. Through an iterative
+procedure, we compute the free energy and the chemical potential of the square
+platelet system by evaluating the volume of the phase space attributed to the
+hard particles, and then we find the coexistence pressure of the system. Our
+method provides an intuitive approach to investigate the phase transitions of
+hard particle systems.
+</summary>
